@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Longest Bridges</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+
+     <!-- JavaScript used to draw the map, and make the map interactive-->
+      <!-- user can move the map around, click on markers etc-->
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+ crossorigin=""></script>
+<!--Our resources-->
+ <link rel="stylesheet" type="text/css" href="styles.css">
+<script async defer src="bridge.js"></script>
+
+
+</head>
+<body>
+    <h1>Map of the Longest Bridges in the US</h1>
+    
+    <!-- Emoty div element. leaflet will draw the map inside this div-->
+    <!-- By Default, a div is 0 pixel tall, and as wide as the page-->
+    <!-- so we need to use our own Css to set the height and width of the div-->
+    <div id="bridge-map"></div>
+
+
+
+</body>
+
+</html>
